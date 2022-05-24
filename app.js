@@ -160,15 +160,9 @@
       })
     }
 
-
-
-
-
     const container = document.querySelector('.recherche__field');
-
     const select = document.querySelector('.recherche__custom-select');
     const selectContent = document.querySelector('.custom-select__list')
-
     const close = document.querySelector('.recherche__close');
 
     input.addEventListener('focus', function() {
@@ -235,25 +229,16 @@
         if(newPosts.length !== 0) {
 
           showForSelect(newPosts);
-
-
-
-
-
+          
         } else {
           // удаляем список из html полностью
           reset();
-
         }
 
       } else {
         close.classList.remove('active');
         reset();
       }
-
-
-
-
     });
 
     close.addEventListener('click', function(e) {
@@ -262,6 +247,5 @@
       input.value = '';
       reset();
     })
-
 
   }

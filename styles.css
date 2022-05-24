@@ -238,11 +238,11 @@ main {
 	 transition: opacity 0.3s;
 }
  .recherche__icon::after {
-	 background-image: url("../img/icon-search.svg");
+	 background-image: url("img/icon-search.svg");
 	 opacity: 1;
 }
  .recherche__icon::before {
-	 background-image: url("../img/icon-search-active.svg");
+	 background-image: url("img/icon-search-active.svg");
 	 opacity: 0;
 }
  .recherche__input::placeholder {
@@ -260,7 +260,7 @@ main {
 	 background-size: cover;
 	 background-position: center;
 	 transition: opacity 0.3s;
-	 background-image: url("../img/icon-search-close.svg");
+	 background-image: url("img/icon-search-close.svg");
 	 opacity: 0;
 	 visibility: hidden;
 }
